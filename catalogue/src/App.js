@@ -1,0 +1,41 @@
+import React, { useState, useEffect } from "react";
+import ProductsContainer from "./components/ProductsContainer";
+import NewProductForm from "./components/NewProductForm";
+
+function App() {
+const [isOpen, setIsOpen] = useState(true)
+
+const formShowing= () =>{
+  setIsOpen(!isOpen)
+    }
+
+
+
+const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8004/poems")
+      .then((response) => response.json())
+      .then((products) => setProducts(products));
+  }, []);
+
+ 
+
+      function addProducts(product){
+        setProducts([...products,product])
+      }
+
+
+
+  return (
+    <div className="app">
+      <div className="sidebar">
+        <button onClick={formShowing}>Show/hide new poem form</button>
+      {isOpen?<NewProductForm addProducts={addProducts}/>:null}
+      </div>
+      <ProductsContainer products={products} setProducts={setProducts} />
+    </div>
+  );
+}
+
+export default App;
