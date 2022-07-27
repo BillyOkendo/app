@@ -25,10 +25,7 @@ const [products, setProducts] = useState([]);
 
   return (
     <div className="app">
-      <div className="sidebar">
-        
-      </div>
-      <ProductsContainer products={products} setProducts={setProducts} />
+            <ProductsContainer products={products} setProducts={setProducts} />
     </div>
   );
 }
