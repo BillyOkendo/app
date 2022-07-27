@@ -1,6 +1,6 @@
 
 
-function Product({ id, name, author, image,favorite,updateProducts }) {
+function Product({ id, name, description, image,favorite,updateProducts }) {
  
   
 
