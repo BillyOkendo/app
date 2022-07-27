@@ -9,7 +9,7 @@ function Product({ id, name, author, image,favorite,updateProducts }) {
      
 
   function addToFavourite(){
-    fetch(`http://localhost:8004/poems/${id}`,{
+    fetch(`http://localhost:3000/products${id}`,{
       method:"PATCH",
       headers:{
         'Content-Type':"Application/json",
