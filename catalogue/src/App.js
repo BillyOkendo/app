@@ -26,8 +26,7 @@ const [products, setProducts] = useState([]);
   return (
     <div className="app">
       <div className="sidebar">
-        <button onClick={formShowing}>Show/hide new poem form</button>
-      {isOpen?<NewProductForm addProducts={addProducts}/>:null}
+        
       </div>
       <ProductsContainer products={products} setProducts={setProducts} />
     </div>
