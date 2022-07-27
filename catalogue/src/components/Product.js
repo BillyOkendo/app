@@ -28,9 +28,9 @@ function Product({ id, name, author, image,favorite,updateProducts }) {
   return (
     <div id={id}>
       <h3>{name}</h3>
-      <p>{image}</p>
+      <img src={image} alt="product"/>
       <p>
-        <strong>- By {author}</strong>
+        <strong>{description}</strong>
       </p>
 
       <button onClick={addToFavourite}>
