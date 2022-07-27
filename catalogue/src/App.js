@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ProductsContainer from "./components/ProductsContainer";
-import NewProductForm from "./components/NewProductForm";
+
 
 function App() {
-const [isOpen, setIsOpen] = useState(true)
 
-const formShowing= () =>{
-  setIsOpen(!isOpen)
-    }
 
 
 
