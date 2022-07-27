@@ -12,7 +12,7 @@ function NewPoemForm({ updatePoems }) {
     if(formData.title==="" || formData.content==="" || formData.author===""){
              alert("Please fill in the form")
     } else{
-      fetch("http://localhost:8004/poems", {
+      fetch("http://localhost:3000/products", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
