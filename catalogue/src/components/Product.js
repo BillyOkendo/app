@@ -34,7 +34,7 @@ function Product({ id, name, description, image,favorite,updateProducts }) {
       </p>
 
       <button onClick={addToFavourite}>
-        {favorite? "Remove Favourite":"Add Favourite"}</button>
+        {favorite? "Remove from Cart":"Add to Cart"}</button>
         
         
      
