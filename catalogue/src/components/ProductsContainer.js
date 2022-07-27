@@ -32,9 +32,9 @@ function PoemsContainer({ products, setProducts }) {
         
         key={product.id}
         id={product.id}
-        title={product.title}
+        name={product.name}
         content={product.content}
-        author={product.author}
+        description={product.description}
         updateProducts={updateProducts}
       />
     );
