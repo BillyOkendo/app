@@ -14,7 +14,7 @@ const formShowing= () =>{
 const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8004/poems")
+    fetch("http://localhost:3000/products")
       .then((response) => response.json())
       .then((products) => setProducts(products));
   }, []);
