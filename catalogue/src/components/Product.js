@@ -1,11 +1,7 @@
 import React from "react";
 import { useState } from "react";
-function Product({ id, name, price, image, favorite }) {
-  const [products, setProducts] = useState([]);
-
-  function updateProducts(product) {
-    setProducts([...products, product]);
-  }
+function Product({ id, name, price, image, favorite,updateProducts }) {
+ 
 
   function addToFavourite() {
     fetch(`http://localhost:3000/products/${id}`, {
@@ -31,7 +27,7 @@ function Product({ id, name, price, image, favorite }) {
       </p>
 
       <button onClick={addToFavourite}>
-        {favorite ? "Remove Favourite" : "Add Favourite"}
+        {favorite ? "Remove from Cart" : "Add to Cart"}
       </button>
     </div>
   );

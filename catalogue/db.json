@@ -14,14 +14,15 @@
       "description": "Similar to that",
       "image": "https://phonesstorekenya.com/wp-content/uploads/2019/09/Apple-iPhone-11-Purple.jpg",
       "price": "ksh 50,000",
-      "favourite": true
+      "favourite": false
     },
     {
       "id": 3,
       "name": "Couch",
       "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
       "image": "https://thumbs.dreamstime.com/b/comfortable-couch-orange-red-pillow-spacious-living-room-interior-comfortable-couch-orange-red-pillow-131769657.jpg",
-      "price": "Ksh 30,000"
+      "price": "Ksh 30,000",
+      "favourite": false
     },
     {
       "id": 4,
@@ -35,7 +36,8 @@
       "name": "Water bottle",
       "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
       "image": "https://media.istockphoto.com/photos/blue-and-green-water-bottle-leaning-on-each-other-isolated-on-a-white-picture-id1255064221?s=612x612",
-      "price": "Ksh 70,000"
+      "price": "Ksh 70,000",
+      "favourite": false
     },
     {
       "id": 7,
@@ -49,7 +51,8 @@
       "name": "Mug",
       "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
       "image": "https://giftsandflowers.co.ke/wp-content/uploads/2021/04/branded-mugs-in-kenya-2.jpg",
-      "price": "Ksh 500"
+      "price": "Ksh 500",
+      "favourite": false
     }
   ]
 }
