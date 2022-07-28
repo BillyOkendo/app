@@ -11,6 +11,11 @@ body {
   
 }
 
+a {
+  
+  margin-right: 5%;
+}
+
 .cata {
   display: flex;
   flex-direction: row;
