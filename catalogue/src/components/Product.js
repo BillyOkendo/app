@@ -28,13 +28,13 @@ function Product({ id, name, description, image,favorite,updateProducts }) {
   return (
     <div id={id}>
       <h3>{name}</h3>
-      <img src={image} alt="product"/>
+      <p>{image}</p>
       <p>
-        <strong>{description}</strong>
+        <strong> {description}</strong>
       </p>
 
       <button onClick={addToFavourite}>
-        {favorite? "Remove from Cart":"Add to Cart"}</button>
+        {favorite? "Remove Favourite":"Add Favourite"}</button>
         
         
      

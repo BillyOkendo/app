@@ -44,7 +44,7 @@ function PoemsContainer({ products, setProducts }) {
     <div className="poems-container">
       <select onChange={handleSelect} value={selectedOption}>
         <option value="All">All Products</option>
-        <option value="favourite">Favorites</option>
+        <option value="favourite">My Cart</option>
       </select>
 
       {showProducts}
@@ -52,4 +52,4 @@ function PoemsContainer({ products, setProducts }) {
   );
 }
 
-export default PoemsContainer;
+export default ProductsContainer;

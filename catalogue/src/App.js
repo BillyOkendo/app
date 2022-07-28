@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
-import ProductsContainer from "./components/ProductsContainer";
+import ProductsContainer from "./components/ProductsContainer"
 
 
 function App() {
 
 
 
+  function updateProducts(product) {
+    setProducts([...products, product]);
+  }
 
 const [products, setProducts] = useState([]);
 
@@ -25,7 +28,9 @@ const [products, setProducts] = useState([]);
 
   return (
     <div className="app">
-            <ProductsContainer products={products} setProducts={setProducts} />
+        
+      
+      <ProductsContainer products={products} setProducts={setProducts} />
     </div>
   );
 }
