@@ -1,8 +1,14 @@
 import React from "react";
+import { useState } from "react";
+function Product({ id, name, price, image, favorite }) {
+  const [products, setProducts] = useState([]);
 
-function Product({ id, name, price, image, favorite, updateProducts }) {
+  function updateProducts(product) {
+    setProducts([...products, product]);
+  }
+
   function addToFavourite() {
-    fetch(`http://localhost:3000/products${id}`, {
+    fetch(`http://localhost:3000/products/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "Application/json",

@@ -4,9 +4,7 @@ import ProductsContainer from "./ProductsContainer"
 
 function Catalogue() {
 
-    function updateProducts(product) {
-        setProducts([...products, product]);
-      }
+    
     
     const [products, setProducts] = useState([]);
     
@@ -18,10 +16,7 @@ function Catalogue() {
     
      
     
-          function addProducts(product){
-            setProducts([...products,product])
-          }
-    
+         
     
     
 

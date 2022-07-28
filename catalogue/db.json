@@ -1,54 +1,55 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Vacuum Cleaner",
-        "image": "https://5.imimg.com/data5/HG/XP/MY-29014295/vacuum-cleaner-500x500.jpg",
-        "price": "ksh 20,000",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by"
-      },
-      {
-        "id": 2,
-        "name": "Phone",
-        "description": "Similar to that",
-        "image": "https://phonesstorekenya.com/wp-content/uploads/2019/09/Apple-iPhone-11-Purple.jpg",
-        "price": "ksh 50,000"
-      },
-      {
-        "id": 3,
-        "name": "Couch",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
-        "image": "https://thumbs.dreamstime.com/b/comfortable-couch-orange-red-pillow-spacious-living-room-interior-comfortable-couch-orange-red-pillow-131769657.jpg",
-        "price": "Ksh 30,000"
-      },
-      {
-        "id": 4,
-        "name": "Hiking bag",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
-        "image": "https://m.media-amazon.com/images/I/71czD50UQ5L._AC_UX385_.jpg",
-        "price": "Ksh 5,000"
-      },
-      {
-        "id": 5,
-        "name": "Water bottle",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
-        "image": "https://media.istockphoto.com/photos/blue-and-green-water-bottle-leaning-on-each-other-isolated-on-a-white-picture-id1255064221?s=612x612",
-        
-        "price": "Ksh 70,000"
-      },
-      {
-        "id": 7,
-        "name": "Lawn mower",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
-        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mower-1568302588.jpg?crop=1.00xw:0.669xh;0,0.318xh&resize=1200:*",
-        "price": "Ksh 25,000"
-      },
-      {
-        "id": 8,
-        "name": "Mug",
-        "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
-        "image": "https://giftsandflowers.co.ke/wp-content/uploads/2021/04/branded-mugs-in-kenya-2.jpg",
-        "price": "Ksh 500"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Vacuum Cleaner",
+      "image": "https://5.imimg.com/data5/HG/XP/MY-29014295/vacuum-cleaner-500x500.jpg",
+      "price": "ksh 20,000",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "favourite": true
+    },
+    {
+      "id": 2,
+      "name": "Phone",
+      "description": "Similar to that",
+      "image": "https://phonesstorekenya.com/wp-content/uploads/2019/09/Apple-iPhone-11-Purple.jpg",
+      "price": "ksh 50,000",
+      "favourite": true
+    },
+    {
+      "id": 3,
+      "name": "Couch",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "image": "https://thumbs.dreamstime.com/b/comfortable-couch-orange-red-pillow-spacious-living-room-interior-comfortable-couch-orange-red-pillow-131769657.jpg",
+      "price": "Ksh 30,000"
+    },
+    {
+      "id": 4,
+      "name": "Hiking bag",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "image": "https://m.media-amazon.com/images/I/71czD50UQ5L._AC_UX385_.jpg",
+      "price": "Ksh 5,000"
+    },
+    {
+      "id": 5,
+      "name": "Water bottle",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "image": "https://media.istockphoto.com/photos/blue-and-green-water-bottle-leaning-on-each-other-isolated-on-a-white-picture-id1255064221?s=612x612",
+      "price": "Ksh 70,000"
+    },
+    {
+      "id": 7,
+      "name": "Lawn mower",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mower-1568302588.jpg?crop=1.00xw:0.669xh;0,0.318xh&resize=1200:*",
+      "price": "Ksh 25,000"
+    },
+    {
+      "id": 8,
+      "name": "Mug",
+      "description": "Similar to a filler word, a placeholder is a word (such as whatchamacallit) used by",
+      "image": "https://giftsandflowers.co.ke/wp-content/uploads/2021/04/branded-mugs-in-kenya-2.jpg",
+      "price": "Ksh 500"
+    }
+  ]
+}
