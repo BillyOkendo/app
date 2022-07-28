@@ -29,19 +29,19 @@ function ProductsContainer({ products, setProducts }) {
     return (
       <Product
         favorite={product.favourite}
-        
         key={product.id}
         id={product.id}
         name={product.name}
         content={product.content}
-        description={product.description}
+        description={product.price}
+        image={product.image}
         updateProducts={updateProducts}
       />
     );
   });
 
   return (
-    <div className="poems-container">
+    <div className="products-container">
       <select onChange={handleSelect} value={selectedOption}>
         <option value="All">All Products</option>
         <option value="favourite">My Cart</option>
