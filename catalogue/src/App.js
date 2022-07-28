@@ -30,7 +30,7 @@ const [products, setProducts] = useState([]);
     <div className="app">
         
       
-      <ProductsContainer products={products} setProducts={setProducts} />
+     
     </div>
   );
 }
