@@ -4,7 +4,7 @@ function Product({ id, name, price, image, favorite,updateProducts }) {
  
 
   function addToCart() {
-    fetch(`http://localhost:3000/products/${id}`, {
+    fetch(`https://damp-journey-46873.herokuapp.com/products/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "Application/json",

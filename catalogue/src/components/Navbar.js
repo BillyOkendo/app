@@ -24,7 +24,7 @@ const Navbar = () => {
                   to="/catalogue"
                   
                 >
-                    <button className="btn">catalogue</button>
+                    <button className="btn">Products</button>
                 </NavLink>
                 
             

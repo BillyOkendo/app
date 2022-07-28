@@ -30,12 +30,15 @@ a {
 .cata {
 width: 100%;
 margin-top: 5%;
+  background-color: yellowgreen;
   
 }
 
 img{
-  height: 150px;
-  width: 50%;
+  height: 25%;
+  width: 200px;
+  display: table-column;
+  
 }
 
 
@@ -43,8 +46,12 @@ img{
 
 
 .products-container {
-  max-width: 30em;
+  
   margin: auto;
+  background-color: aqua;
+  width:100%;
+  margin-bottom: 5%;
+  
 }
 
 .productss-container > div {

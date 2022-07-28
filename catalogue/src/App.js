@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from './components/Home';
 import Catalogue from './components/Catalogue';
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 
 function App() {
@@ -13,14 +13,21 @@ function App() {
     setProducts([...products, product]);
   }
 
+    
+  useEffect(() => {
+    fetch("https://damp-journey-46873.herokuapp.com/products")
+      .then((response) => response.json())
+      .then((products) => setProducts(products));
+  }, []);
+
 
   
   return (
     <div className="app">
          <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-         <Route path="/catalogue" element={<Catalogue updateProducts={updateProducts}/>} />
+        <Route path="/" element={<Home setProducts={setProducts} products={products} />} />
+         <Route path="/catalogue" element={<Catalogue updateProducts={updateProducts} setProducts={setProducts} products={products}/>} />
         
       </Routes>
       
