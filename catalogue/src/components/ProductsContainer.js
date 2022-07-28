@@ -1,7 +1,7 @@
 import Product from "./Product";
 import { useState } from "react";
 
-function PoemsContainer({ products, setProducts }) {
+function ProductsContainer({ products, setProducts }) {
   const [selectedOption, setSelectedOption] = useState("All");
 
   function handleSelect(e) {
