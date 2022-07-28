@@ -33,7 +33,7 @@ function ProductsContainer({ products, setProducts }) {
         id={product.id}
         name={product.name}
         content={product.content}
-        description={product.price}
+        price={product.price}
         image={product.image}
         updateProducts={updateProducts}
       />
@@ -42,7 +42,7 @@ function ProductsContainer({ products, setProducts }) {
 
   return (
     <div className="products-container">
-      <select onChange={handleSelect} value={selectedOption}>
+      <select className="select-bar" onChange={handleSelect} value={selectedOption}>
         <option value="All">All Products</option>
         <option value="favourite">My Cart</option>
       </select>

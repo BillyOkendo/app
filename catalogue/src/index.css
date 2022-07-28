@@ -17,9 +17,25 @@ a {
   margin-right: 5%;
 }
 
+.select-bar {
+  background-color: green;
+  height: 35px;
+  
+  margin-left: 5%;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .cata {
-  display: flex;
-  flex-direction: row;
+width: 100%;
+margin-top: 5%;
+  
+}
+
+img{
+  height: 150px;
+  width: 50%;
 }
 
 

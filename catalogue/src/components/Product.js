@@ -3,7 +3,7 @@ import { useState } from "react";
 function Product({ id, name, price, image, favorite,updateProducts }) {
  
 
-  function addToFavourite() {
+  function addToCart() {
     fetch(`http://localhost:3000/products/${id}`, {
       method: "PATCH",
       headers: {
@@ -26,7 +26,7 @@ function Product({ id, name, price, image, favorite,updateProducts }) {
         <strong> {price}</strong>
       </p>
 
-      <button onClick={addToFavourite}>
+      <button onClick={addToCart}>
         {favorite ? "Remove from Cart" : "Add to Cart"}
       </button>
     </div>
