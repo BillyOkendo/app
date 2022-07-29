@@ -14,4 +14,20 @@ root.render(
 );
 
 
+var colors = ["white", "green", "black"]
+var currentColor = 0
+var textColor = document.getElementsByTagName("h1")
+
+function changeColor() {
+  --currentColor
+  if (currentColor < 0) currentColor = colors.length - 1
+  for (var i = 0; i < textColor.length; i++) {
+    textColor[i].style.color = colors[(currentColor + i) % colors.length]
+  }
+}
+
+setInterval(changeColor, 2000)
+
+
+
 

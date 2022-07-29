@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from './components/Home';
 import Catalogue from './components/Catalogue';
 import { useState,useEffect } from "react";
-
+import Reviews from "./components/Reviews";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -26,9 +26,9 @@ function App() {
     <div className="app">
          <Navbar />
       <Routes>
-        <Route path="/" element={<Home setProducts={setProducts} products={products} />} />
+        <Route path="/" element={<Home  />} />
          <Route path="/catalogue" element={<Catalogue updateProducts={updateProducts} setProducts={setProducts} products={products}/>} />
-        
+         <Route path="/reviews" element={<Reviews setProducts={setProducts} products={products} />} />
       </Routes>
       
      

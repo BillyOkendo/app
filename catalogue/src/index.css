@@ -1,5 +1,8 @@
 body {
-  background-color: gray;
+  background-image: url(https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8b25saW5lJTIwc2hvcHBpbmd8ZW58MHx8MHx8&w=1000&q=80);
+  background-size: cover;
+  width: auto;
+  height: auto;
   margin: 0;
   font-family: sans-serif;
 }
@@ -26,17 +29,38 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.right{
 
+  position:relative; bottom:750px;
+}
+hr{
+  height: 90px;
+}
+.center{
+  margin-left: 500px;
+  margin-top: 10%;
+}
+
+.left{
+float: right;
+margin-right: 5%;
+margin-top: 0.5%;
+}
 .cata {
 width: 100%;
 margin-top: 5%;
-  background-color: yellowgreen;
+  background-color: grey;
   
 }
 
+
+.reviews{
+  text-align: center;
+}
+
 img{
-  height: 25%;
-  width: 200px;
+  height: 35%;
+  width: 300px;
   display: table-column;
   
 }
@@ -48,11 +72,20 @@ img{
 .products-container {
   
   margin: auto;
-  background-color: aqua;
+  background-color: grey;
   width:100%;
   margin-bottom: 5%;
   
 }
+
+
+
+.home{
+max-height: 500px;
+}
+
+
+
 
 .productss-container > div {
   border-bottom: solid 1px grey;

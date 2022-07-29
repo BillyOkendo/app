@@ -27,6 +27,13 @@ const Navbar = () => {
                     <button className="btn">Products</button>
                 </NavLink>
                 
+
+                <NavLink 
+                  to="/reviews"
+                  
+                >
+                    <button className="btn">Reviews</button>
+                </NavLink>
             
            
         </div>
