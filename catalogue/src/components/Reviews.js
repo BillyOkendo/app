@@ -5,7 +5,7 @@ function Reviews() {
     <div className='reviews'>
 <h1>CUSTOMER REVIEWS</h1>
 
-<h1>Yafo</h1>
+<h1>Wanjiru</h1>
 <p>Good products</p>
 
 <h1>Gabby</h1>
