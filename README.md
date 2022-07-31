@@ -14,7 +14,7 @@ Billy Okendo
 
 ## Demo setup Instructions
 Open your browser,
-Click on this [Link](https://tourmaline-youtiao-528bbb.netlify.app/) to acces the website
+Click on this [Link](https://guileless-druid-fc9e42.netlify.app/) to acces the app
 
 ## Installations
 fork the repository
