@@ -31,7 +31,7 @@ then navigate to the root folder and open with your editor<br>
 ## Technologies used
 <ul>
 <li>React</li>
-<li>API's</li>
+<li>API's(https://github.com/BillyOkendo/json-server)</li>
 <li>CSS</li>
 </ul>
 
